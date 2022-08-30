@@ -1,0 +1,55 @@
+Pseudo-Kode Ubuntu_site
+_______________________________________________________________
+ 1) Landing-page (FORSIDEN)
+Brugeren har mulighed for at navigere rundt på siden via navigationen som ligger i en header
+
+Brugeren starter på vores landingpage (forsiden)
+siden bliver delvist delt i sectioner
+Her har brugeren følgende muligheder -
+ - at blive tilmeldt til konferencen (linket videre til tilmelding)
+ - ignorer tilmelding
+Vælger brugeren at tilmelde sig direkte - bliver brugeren sendt til "tilmeldingsiden" via CTA knappen. Hvor Tilmelding indeholder en form (navn, adresse, land, email, interesse og dage) med validering af korrekt indtastning og forvisning af en takke besked under formen
+
+Ignorer brugeren tilmeldingen bliver brugeren mødt af 8 nyheder der har hver sine "cards" der fylder 4 på hver linje. Disse cards skal generes med javaScript og skal indeholde 
+ - headline
+ - body text
+ - et billede
+
+forsætter brugeren efter nyhederne bliver bruger mødt af en interesse form der giver brugeren mulighed for at vise interesse ved at indtaste navn og email, benytter brugeren sig at formen skal formen valider email og forsvinde efter bekræftelse og vise "hurra du klarede det" e.l.
+
+Brugeren bevægere sig lettere mod enden af landingpage og finder en section med IOT og DESKTOP ikoner der tilsvarende har et link der henvises til "programsiden"
+
+Der vil være en tilsvarende footer der dækker alle siderne.
+_______________________________________________________________
+2) Tilmelding-page (tilmeldingSide)
+Brugeren har mulighed for at navigere rundt på siden via navigationen som ligger i en header
+
+siden bliver delt op i 2 sectioner hvor første section bliver formen - brugeren har mulighed for at tilmelde sig konferencerne til det kommende forløb med deres information (navn, adresse, land, email, interesse(IoT&Desk) og dage)
+
+Formen i sig selv indeholder 5 inputs tilsvarende til det overordnet - efterfølgende med checkboxes svarende til om man vælger interesse(IoT eller Desktop) og hvilke dage på ugen man vil deltage (checkboxes = 7)
+
+Brugeren bevæger sig mod enden af siden hvor de finder en section med IOT og DESKTOP ikoner der tilsvarende har et link der henvises til "programsiden"
+
+Der vil være en tilsvarende footer der dækker alle siderne.
+_______________________________________________________________
+3) Progam-page (programSide)
+Brugeren har mulighed for at navigere rundt på siden via navigationen som ligger i en header
+
+Brugeren befinder sig nu på programsiden som delvist er delt i en section der dækker indeholdet med "cards" der viser hvilke speakers(personer) der har oplæg de planlagte dage. De vil blive koblet som et link der henviser til event info side med mere konkret information
+Disse speaker "cards" skal generers med javaScript og indeholde
+ - information
+ - billeder
+
+Der vil være en tilsvarende footer der dækker alle siderne.
+_______________________________________________________________
+4) Event-Info-page (info side)
+Brugeren har mulighed for at navigere rundt på siden via navigationen som ligger i en header
+
+Siden vil tilsvarende blive delt op i 4 sectioner der deler indhold der svare sig til IOT og desktop information, altså
+ - subject headline og billede
+ - Subject text
+ - info text om speaker
+ - Speaker billede
+
+Der vil være en tilsvarende footer der dækker alle siderne.
+_______________________________________________________________
